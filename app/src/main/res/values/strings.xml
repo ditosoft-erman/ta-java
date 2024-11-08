@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">tools_rental</string>
+    <string name="underline_text"><u> Terms &amp; Conditions </u></string>
+    <string name="Privacy"><u> Privacy and Policy</u></string>
+    <string name="Home">title_home</string>
+    <string name="Favorites">title_favorites</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/user_header">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#1E3E62">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/pro"
+            android:background="@drawable/circleprofile"
+            android:clipToOutline="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Mike Uy"
+            android:textColor="@color/white"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="32dp"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="uyjohnmike2341@gmail.com"
+            android:textColor="@color/white"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="52dp"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="91dp"
+            app:menu="@menu/user_side_menu"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

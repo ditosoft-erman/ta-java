@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.user_profile"
+    android:background="#F5F5F5">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/raduis_buttomonly">
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="35dp"
+            android:background="@drawable/baseline_clear_all_45" />
+
+
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="270dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/backgroundwhiteandraduis">
+
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:src="@drawable/pro"
+                android:background="@drawable/circleprofile"
+                android:clipToOutline="true"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="200dp"
+                android:layout_marginTop="45dp"
+                android:text="John Yu"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <View
+                android:layout_width="130dp"
+                android:layout_height="2dp"
+                android:layout_marginLeft="180dp"
+                android:background="@android:color/black"
+                android:layout_marginTop="75dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="218dp"
+                android:layout_marginTop="74dp"
+                android:text="Full name"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No. :"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+63"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="180dp"
+                />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="9518857334"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="160dp"
+                android:layout_marginLeft="210dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email :"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="40dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:text="uyjohnmik@gmail.com"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="180dp"
+                />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit Information"
+        android:textSize="15sp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+       />
+
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="138dp"
+        android:layout_marginTop="351dp"
+        android:background="@drawable/baseline_colorize_19"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basic Information"
+        android:textSize="18dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="390dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Full Name :"
+        android:textSize="17sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="430dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="John Mike Uy"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="432dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="470dp"
+        android:text="Gender :"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Male"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="472dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Birthday :"
+        android:textSize="17sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="510dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Febraury 23, 2003"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="512dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age :"
+        android:textSize="17sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="550dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="21"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="552dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Information"
+        android:textSize="18dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="590dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone :"
+        android:textSize="17sp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="630dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+63"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="633dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="9518857334"
+        android:textSize="15sp"
+        android:layout_marginLeft="245dp"
+        android:layout_marginTop="633dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="670dp"
+        android:text="Email :"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="uyjohnmik@gmail.com"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="673dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Address"
+        android:textSize="18dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="710dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="750dp"
+        android:text="Home :"
+        android:textColor="#000000"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:text="Poblacion, Valencia City Purok 19, Dama de Noche Street"
+        android:textSize="15sp"
+        android:layout_marginLeft="215dp"
+        android:layout_marginTop="753dp"
+        android:textStyle="bold"/>
+
+
+</RelativeLayout>
+
