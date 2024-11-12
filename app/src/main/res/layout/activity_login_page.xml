@@ -6,25 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".View.login_page"
-    android:background="#F5F5F5">
+    android:background="#F5F5F5"
+    tools:ignore="ExtraText">
 
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/baseline_arrow_back_24"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp" />
 
     <TextView
+        android:id="@+id/loginText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:textSize="50dp"
-        android:textStyle="bold"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="170dp"
-        android:textColor="#000000"/>
+        android:text="Login"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -34,7 +29,7 @@
 
 
         <EditText
-            android:id="@+id/username"
+            android:id="@+id/email"
             android:layout_width="350dp"
             android:layout_height="50dp"
             android:hint="Email"
@@ -90,7 +85,7 @@
     </LinearLayout>
 
 
-    <TextView
+    <Button
         android:id="@+id/login_btn"
         android:layout_width="350dp"
         android:layout_height="50dp"
@@ -103,17 +98,18 @@
         android:textSize="20dp"
         android:textStyle="bold" />
 
-    <TextView
+    <Button
+        android:id="@+id/registerButton"
         android:layout_width="350dp"
         android:layout_height="50dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="590dp"
-        android:layout_marginLeft="30dp"
-        android:gravity="center"
         android:background="@drawable/loginborderwhite"
-        android:textColor="@android:color/white"
+        android:gravity="center"
         android:text="Register"
-        android:textSize="20dp"
-        android:textStyle="bold"/>
+        android:textColor="@color/black"
+        android:textSize="20sp"
+       android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"

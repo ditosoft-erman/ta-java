@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -8,7 +9,8 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="90dp"
-        android:background="#1E3E62">
+        android:background="#1E3E62"
+        android:contentDescription="TODO">
 
         <ImageView
             android:layout_width="50dp"
@@ -37,7 +39,8 @@
             android:layout_marginLeft="75dp"
             android:layout_marginTop="52dp"
             android:textStyle="bold"
-            android:textSize="14sp"/>
+            android:textSize="14sp"
+            tools:ignore="RtlHardcoded" />
 
         <com.google.android.material.navigation.NavigationView
             android:layout_width="wrap_content"
